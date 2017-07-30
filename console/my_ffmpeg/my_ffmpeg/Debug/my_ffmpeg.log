@@ -1,0 +1,40 @@
+﻿生成启动时间为 2017/7/30 20:11:51。
+     1>项目“C:\Users\ShenTao\Documents\GitHub\repository\my_ffmpeg\console\my_ffmpeg\my_ffmpeg\my_ffmpeg.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\my_ffmpeg.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Iinclude /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\my_ffmpeg.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt my_ffmpeg.cpp
+         my_ffmpeg.cpp
+     1>c:\users\shentao\documents\github\repository\my_ffmpeg\console\my_ffmpeg\my_ffmpeg\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\shentao\documents\github\repository\my_ffmpeg\console\my_ffmpeg\my_ffmpeg\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\shentao\documents\github\repository\my_ffmpeg\console\my_ffmpeg\my_ffmpeg\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\shentao\documents\github\repository\my_ffmpeg\console\my_ffmpeg\my_ffmpeg\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\shentao\documents\github\repository\my_ffmpeg\console\my_ffmpeg\my_ffmpeg\my_ffmpeg.cpp(51): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\shentao\documents\github\repository\my_ffmpeg\console\my_ffmpeg\my_ffmpeg\my_ffmpeg.cpp(52): warning C4996: 'AVStream::codec': 被声明为已否决
+                 c:\users\shentao\documents\github\repository\my_ffmpeg\console\my_ffmpeg\my_ffmpeg\include\libavformat\avformat.h(893) : 参见“AVStream::codec”的声明
+     1>c:\users\shentao\documents\github\repository\my_ffmpeg\console\my_ffmpeg\my_ffmpeg\my_ffmpeg.cpp(62): warning C4996: 'AVStream::codec': 被声明为已否决
+                 c:\users\shentao\documents\github\repository\my_ffmpeg\console\my_ffmpeg\my_ffmpeg\include\libavformat\avformat.h(893) : 参见“AVStream::codec”的声明
+     1>c:\users\shentao\documents\github\repository\my_ffmpeg\console\my_ffmpeg\my_ffmpeg\my_ffmpeg.cpp(83): warning C4996: 'avpicture_get_size': 被声明为已否决
+                 c:\users\shentao\documents\github\repository\my_ffmpeg\console\my_ffmpeg\my_ffmpeg\include\libavcodec\avcodec.h(5623) : 参见“avpicture_get_size”的声明
+     1>c:\users\shentao\documents\github\repository\my_ffmpeg\console\my_ffmpeg\my_ffmpeg\my_ffmpeg.cpp(87): warning C4996: 'avpicture_fill': 被声明为已否决
+                 c:\users\shentao\documents\github\repository\my_ffmpeg\console\my_ffmpeg\my_ffmpeg\include\libavcodec\avcodec.h(5608) : 参见“avpicture_fill”的声明
+     1>c:\users\shentao\documents\github\repository\my_ffmpeg\console\my_ffmpeg\my_ffmpeg\my_ffmpeg.cpp(108): warning C4996: 'avcodec_decode_video2': 被声明为已否决
+                 c:\users\shentao\documents\github\repository\my_ffmpeg\console\my_ffmpeg\my_ffmpeg\include\libavcodec\avcodec.h(4963) : 参见“avcodec_decode_video2”的声明
+     1>c:\users\shentao\documents\github\repository\my_ffmpeg\console\my_ffmpeg\my_ffmpeg\my_ffmpeg.cpp(133): warning C4996: 'av_free_packet': 被声明为已否决
+                 c:\users\shentao\documents\github\repository\my_ffmpeg\console\my_ffmpeg\my_ffmpeg\include\libavcodec\avcodec.h(4620) : 参见“av_free_packet”的声明
+     1>c:\users\shentao\documents\github\repository\my_ffmpeg\console\my_ffmpeg\my_ffmpeg\my_ffmpeg.cpp(23): warning C4101: “y_size”: 未引用的局部变量
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ShenTao\Documents\GitHub\repository\my_ffmpeg\console\my_ffmpeg\Debug\my_ffmpeg.exe" /INCREMENTAL /NOLOGO /LIBPATH:lib avcodec.lib avdevice.lib avfilter.lib avformat.lib avutil.lib postproc.lib swresample.lib swscale.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\my_ffmpeg.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\ShenTao\Documents\GitHub\repository\my_ffmpeg\console\my_ffmpeg\Debug\my_ffmpeg.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ShenTao\Documents\GitHub\repository\my_ffmpeg\console\my_ffmpeg\Debug\my_ffmpeg.lib" /MACHINE:X86 Debug\my_ffmpeg.obj
+         Debug\stdafx.obj
+         my_ffmpeg.vcxproj -> C:\Users\ShenTao\Documents\GitHub\repository\my_ffmpeg\console\my_ffmpeg\Debug\my_ffmpeg.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"C:\Users\ShenTao\Documents\GitHub\repository\my_ffmpeg\console\my_ffmpeg\Debug\my_ffmpeg.exe.manifest" /manifest Debug\my_ffmpeg.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\my_ffmpeg.unsuccessfulbuild”。
+         正在对“Debug\my_ffmpeg.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\ShenTao\Documents\GitHub\repository\my_ffmpeg\console\my_ffmpeg\my_ffmpeg\my_ffmpeg.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.38
